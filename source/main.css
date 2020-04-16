@@ -1,0 +1,155 @@
+:root {
+  --darkGray:rgb(71, 78, 93);
+  --lightGray:rgb(199, 197, 197);
+  --proPointOrange:rgb(246, 141, 40);
+  --proPointGray:rgb(138, 138, 138);
+}
+
+body
+{
+	margin: 0;
+	background-color: var(--darkGray);
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.VideoContainer
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top:5%;
+	margin-bottom: 5%;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.textContainer
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 39%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	display: inline-block;
+	vertical-align: center;
+}
+
+.container1
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(199, 197, 197) ;
+	color:rgb(49, 54, 66);
+	
+}
+.container2
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color:var(--darkGray);;
+	color: rgb(238, 238, 238);
+}
+
+h3
+{
+	font-size: 22px;
+	font-weight: 400;
+	/*color: #dedede;*/
+	margin-bottom: 20px;
+	padding: 3%;
+	font-weight: 700;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.VideoWindow
+{
+ width:90%;
+ border-radius: 1%;
+ margin-top: auto;
+ margin-bottom: auto;
+
+}
+
+.footer
+{
+	height: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.menuBar
+{
+	display:block;
+	height: 50px;
+
+}
+
+.menuItem
+{
+	display:inline-block;
+	width: 10%;
+	height: 40px;
+	background-color: var(--proPointGray);
+	color:white;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.menuItem:hover
+{
+	background-color: var(--proPointOrange);
+}
+
+.header
+{
+	width: 100%;
+	height:80px;
+}
+
+@media only screen and (max-width: 950px) 
+{
+	.VideoContainer
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5%;
+		width: 100%;
+		display: block;
+	}
+
+	.textContainer
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		display: block;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	.VideoWindow
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 5%;
+	}
+
+	p
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
